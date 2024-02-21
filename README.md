@@ -1,8 +1,8 @@
 # WomakersCode-SQL
  Este projeto em Python utiliza SQLite para criar e manipular um banco de dados simples com duas tabelas: "alunos" e "clientes". Abaixo, você encontrará um resumo das principais funcionalidades e instruções de uso.
 
-**1. Criação de Tabela Alunos:**
-
+1. Tabela "alunos"
+Criação da Tabela:
 
     A tabela "alunos" é criada com os campos: id, nome, idade e curso.
     São inseridos registros na tabela "alunos" com informações fictícias.
@@ -15,10 +15,10 @@ Consultas que foram realizadas:
 
 Atualização e Remoção:
 
-    Atualizar a idade de um aluno específico na tabela.
-    Remover um aluno pelo id.
-
-**2. Tabela "clientes"**
+Atualiza a idade de um aluno específico na tabela.
+Remove um aluno pelo id.
+2. Tabela "clientes"
+Criação da Tabela:
 
     A tabela "clientes" é criada com os campos: id, nome, idade e saldo.
 
@@ -26,21 +26,19 @@ Atualização e Remoção:
 
 Consultas e Funções Agregadoras:
 
-    a.Selecionar o nome e a idade dos clientes com idade superior a 30 anos.
-    b. Calcular o saldo médio dos clientes.
-    c. Encontrar o cliente com o saldo máximo.
-    d. Contar quantos clientes têm saldo acima de 1000.
-    e. Atualizar e Remoção com Condições:
-    f. Atualizar o saldo de um cliente específico.
-    g. Remove um cliente pelo seu id.
+Seleciona o nome e a idade dos clientes com idade superior a 30 anos.
+Calcula o saldo médio dos clientes.
+Encontra o cliente com o saldo máximo.
+Conta quantos clientes têm saldo acima de 1000.
+Atualização e Remoção com Condições:
 
+Atualiza o saldo de um cliente específico.
+Remove um cliente pelo seu id.
+3. Junção de Tabelas "clientes" e "compras"
+Criação da Tabela "compras":
 
-**3.Junção de Tabelas "clientes" e "compras"**
-
-    Criação da Tabela "compras":
-    A tabela "compras" é criada com os campos: id, cliente_id, produto e valor.
-    São inseridas compras associadas a clientes existentes na tabela "clientes".**
-
+A tabela "compras" é criada com os campos: id, cliente_id, produto e valor.
+Inserção de Dados em "compras":
 
 Junção de Tabelas:
 
