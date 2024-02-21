@@ -1,7 +1,7 @@
 # WomakersCode-SQL
  Este projeto em Python utiliza SQLite para criar e manipular um banco de dados simples com duas tabelas: "alunos" e "clientes". Abaixo, você encontrará um resumo das principais funcionalidades e instruções de uso.
 
-1. Tabela "alunos"
+*1. Tabela "alunos"*
 Criação da Tabela:
 
 A tabela "alunos" é criada com os campos: id, nome, idade e curso.
