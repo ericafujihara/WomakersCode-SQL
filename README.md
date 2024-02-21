@@ -17,6 +17,9 @@ Atualização e Remoção:
 
 Atualiza a idade de um aluno específico na tabela.
 Remove um aluno pelo id.
+
+
+
 2. Tabela "clientes"
 Criação da Tabela:
 
@@ -34,6 +37,9 @@ Atualização e Remoção com Condições:
 
 Atualiza o saldo de um cliente específico.
 Remove um cliente pelo seu id.
+
+
+
 3. Junção de Tabelas "clientes" e "compras"
 Criação da Tabela "compras":
 
